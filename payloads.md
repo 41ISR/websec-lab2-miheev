@@ -4,8 +4,8 @@ _Пример оформления работы_
 
 ## Payload 1
 
-При переходе по ссылке `https://example.com/example`. Параметр `example` можно заменить на пейлоад `<script>alert(document.cookies)</script>` для выполнения Reflected XSS инъекции в элементе `<div id="search-query-param">...</div>`, который покажет куки файлы пользователя
+При регистрации находишь поле ввода названия профиля и в коде и меняшь параметр `value maxlength="16"` на например `121`. В название профиля пишешь `<script>alert('aye')</script>`. После регистрации заходим в `Sign in`. 
 
-## Payload n
+## Payload 2
 
 ...
